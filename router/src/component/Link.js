@@ -7,6 +7,8 @@ import kontak from "./kontak";
 import karya from "./karya";
 import Gallery from "../pages/gallery";
 import  Navigation from "./Navbar";
+import { Card } from "react-bootstrap";
+import Cart from "../pages/Cart";
 
 class Linkn extends React.Component {
   render() {
@@ -18,6 +20,8 @@ class Linkn extends React.Component {
         <Route exact path="/kontak" Component={kontak} />
         <Route exact path="/karya" Component={karya} />
         <Route path="/gallery" Component={Gallery} />
+        <Route path="/cart" Component={Cart} />
+        
         
       </Routes>
 

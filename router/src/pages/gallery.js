@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Card from "../component/card";
 import { Modal, Button, Form } from "react-bootstrap";
 
-
 class Gallery extends Component {
   constructor() {
     super();
@@ -321,6 +320,8 @@ class Gallery extends Component {
                 <Button variant="primary" type="submit">
                   Save
                 </Button>
+               
+               
               </Modal.Footer>
             </Form>
           </Modal>
@@ -329,4 +330,5 @@ class Gallery extends Component {
     );
   }
 }
+
 export default Gallery;

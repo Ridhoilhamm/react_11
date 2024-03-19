@@ -33,6 +33,12 @@ class Card extends React.Component {
               >
                 Hapus
               </button>
+              <button
+                className="btn btn-sm btn-success m-1"
+                onClick={this.props.onCart}
+              >
+                add to cart
+              </button>
             </div>
           </div>
         </div>
