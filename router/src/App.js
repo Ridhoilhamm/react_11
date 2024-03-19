@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./App.css";
 import Linkn from "./component/Link";
 import { Nav, Navbar,Container } from "react-bootstrap";
+// import Pegawai from "./pages/Pegawai";
 
 class App extends React.Component {
   render() {
@@ -19,10 +20,11 @@ class App extends React.Component {
          <Link to="/">Beranda</Link>|
           
           </Nav> 
-          <Nav><Link to="/tentangSaya">tentang saya</Link>|</Nav>
+          <Nav><Link to="/tentangSaya">tentang saya</Link> |</Nav>
           <Link to="/karya">karya</Link> |<Link to="/kontak">kontak</Link> |
           <Link to="/gallery">Gallery</Link>|
-          <Link to="/cart">cart</Link>
+          <Link to="/cart">cart</Link> |
+          <Link to="/pegawai">Daftar Pegawai</Link> 
           </Nav>
             </Container>
           </Navbar>
